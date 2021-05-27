@@ -3,8 +3,12 @@ import ReactDOM from 'react-dom';
 
 
 const App=()=>{
+
+  const buttonText = 'Click Me'
   return <div>
-  <h1> Hello World</h1>
+<label class="label" for="name">Enter Name</label>
+<input id="name" type="text"></input>
+<button style={{backgroundColor: 'blue', color:'white'}}>{buttonText}</button>
   </div>
 }
 ReactDOM.render(
